@@ -1,6 +1,7 @@
 /*Fonte importada do GoogleFonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+
 /*Cofigurando ambiente padrão*/
 *{
     margin: 0;
@@ -101,7 +102,7 @@ html{
     color: #d1820c;
     font-size: 6.2rem;
     text-transform: uppercase;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 1rem;
 }
 
