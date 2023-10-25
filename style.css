@@ -75,7 +75,7 @@ html{
     color: #dd9c23;
 }
 
-
+/* Style da First Section */
 .first-section {
     width: 100vw;
     height: 100vh;
@@ -83,4 +83,29 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient( #000000a8, #000000a6), url(./img/background_first_section.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+}
+
+.first-section .main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section .main_content h1{
+    color: #d1820c;
+    font-size: 6.2rem;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    margin-bottom: 1rem;
+}
+
+.first-section .main_content h2{
+    color: #d6d6d6;
+    font-size: 2.0rem;
 }
