@@ -165,3 +165,33 @@ html {
     width: 700px;
 }
 
+/* Cardápio */
+
+.cardapio{
+    width: 100vw;
+    height: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #272727;
+}
+
+.itens_cardapio img{
+    width: 250px;
+    height: 200px;
+}
+
+.itens_cardapio{
+    display: flex;
+    width: 550px;
+    flex-wrap: wrap;
+    background-color: rgb(56, 56, 56);
+    justify-content: space-evenly;
+}
+
+.cardapio h2{
+    color: #be873e;
+    font-size: 4.0rem;
+}
+
