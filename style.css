@@ -118,38 +118,50 @@ html {
 /* Estilizando Class: Sobre nós */
 
 .sobre-nos {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #1f1e1f;
+    width: 100%;
+    height: 100%;
     padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-nos .img_sobre-nos img {
+    width: 600px;
+    height: 500px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid #be873e;
+}
+
+.main{
+    display: flex;
+    justify-content:space-between;
 }
 
 .contentsobre {
-    width: 40%;
-    height: 60%;
-    background-color: transparent;
-}
-
-.contentsobre p {
-    font-size: 1.6rem;
-    color: #fff0da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .contentsobre h2 {
     font-size: 3.0rem;
     color: #ffebc8;
+    margin-bottom: 2rem;
 }
 
-.sobre-nos .img_sobre-nos {
-    width: 40%;
-    height: 50%;
-    background-color: transparent;
+.contentsobre h3 {
+    font-size: 2.0rem;
+    color: #ffebc8;
+    text-decoration: underline;
 }
 
-.sobre-nos .img_sobre-nos img {
-    width: 100%;
-    height: 100%;
+.contentsobre p {
+    font-size: 1.6rem;
+    color: #fff0da;
+    width: 700px;
 }
+
