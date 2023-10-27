@@ -78,7 +78,7 @@ html {
 }
 
 
-/* Style da First Section */
+/* First Section */
 
 .first-section {
     width: 100vw;
@@ -115,7 +115,7 @@ html {
 }
 
 
-/* Estilizando Class: Sobre nós */
+/* Sobre nós */
 
 .sobre-nos {
     background-color: #1f1e1f;
@@ -257,10 +257,71 @@ html {
     transition: all 200ms ease-in;
 }
 
+.info button a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .produto{
     box-shadow: 0px 0px 4px 1px;
     background-color: transparent;
     border-radius: 6px;
 }
 
+/* Contatos */
 
+.contatos{
+    background-color: #1f1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contatos h2{
+    font-size: 3.0rem;
+    text-transform: uppercase;
+    color: #be873e;
+}
+
+.contatos ul{
+    color: #fff0da;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+
+.contatos li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
+.contatos a{
+    text-decoration: none;
+    color: #fff0da;
+}
+
+/* Footer */
+
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffebc8;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffebc8;
+}
