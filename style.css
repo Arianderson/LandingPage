@@ -127,9 +127,9 @@ html {
 }
 
 .sobre-nos .img_sobre-nos img {
-    width: 600px;
-    height: 500px;
-    margin-top: 10rem;
+    width: 500px;
+    height: 400px;
+    margin-top: 4rem;
     margin-left: 10rem;
     border: 2px solid #be873e;
 }
@@ -162,6 +162,7 @@ html {
     font-size: 1.6rem;
     color: #fff0da;
     width: 700px;
+    text-align: center;
 }
 
 /* Cardápio */
@@ -333,4 +334,103 @@ footer{
 footer a{
     text-decoration: none;
     color: #ffebc8;
+}
+
+
+/* @Media */
+
+@media (max-width: 1312px) {
+    .main{
+        display: block;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        padding-left: 0px;
+    }
+    .sobre-nos .img_sobre-nos img {
+        width: 700px;
+        height: 400px;
+        margin: auto;
+        margin-top: 3rem;
+        border: 2px solid #be873e;
+    }
+    .sobre-nos .contentsobre{
+        margin-top: 40px;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        padding-left: 0px;
+    }
+    .sobre-nos .contentsobre{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 912px) {
+    html{
+        font-size: 60%;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        padding-left: 0px;
+    }
+    .sobre-nos .contentsobre{
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:800px){
+    html{
+        font-size: 60%;
+    }
+    .content{
+        height: 13%;
+    }
+
+}
+@media(max-width:799px){
+    html{
+        font-size: 55%;
+    }
+    .contatos_secao{
+        width: 400px;
+    }
+    .contatos_secao ul{
+        flex-direction: column;
+    }
+    .sobre-nos .img_sobre-nos img {
+        width: 600px;
+        height: 400px;
+        margin-left: 40px;
+        margin-top: 3rem;
+        border: 2px solid #be873e;
+    }
+}
+
+@media(max-width:699px){
+    html{
+        font-size: 40%;
+    }
+    .sobre-nos .img_sobre-nos img {
+        width: 400px;
+        height: 200px;
+       margin: auto;
+        margin-top: 3rem;
+        border: 2px solid #be873e;
+    }
+
 }
